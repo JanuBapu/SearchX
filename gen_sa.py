@@ -2,6 +2,8 @@ import errno
 import os
 import pickle
 import sys
+import webbrowser
+webbrowser.register('firefox', None, webbrowser.GenericBrowser('/path/to/firefox'))
 from argparse import ArgumentParser
 from base64 import b64decode
 from glob import glob
