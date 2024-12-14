@@ -1,5 +1,7 @@
 import os
 import pickle
+import webbrowser
+webbrowser.register('firefox', None, webbrowser.GenericBrowser('/path/to/firefox'))
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
